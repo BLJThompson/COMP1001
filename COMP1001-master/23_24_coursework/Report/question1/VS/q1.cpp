@@ -29,8 +29,8 @@ void initialize();
 void routine1(float alpha, float beta);
 void routine2(float alpha, float beta);
 
-__declspec(align(64)) float  y[M], z[M] ;
-__declspec(align(64)) float A[N][N], x[N], w[N];
+//__declspec(align(64)) float  y[M], z[M] ;
+//__declspec(align(64)) float A[N][N], x[N], w[N];
 
 int main() {
 
@@ -112,7 +112,7 @@ void routine2(float alpha, float beta) {
 
 
 }
-
+//make another routine that compares the performance of the two routines y[i] and w[i] 
 
 
 
